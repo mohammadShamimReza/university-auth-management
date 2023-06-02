@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/.d646f3a6a07fc5d42e7c6c173e4db9d344409f88-audit.json",
+    "files": [
+        {
+            "date": 1685700379964,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-02-06-16-error.log",
+            "hash": "c5c437e556696d1f7688c772f6c48ec598d6e841887e92f48243e927bd581636"
+        }
+    ],
+    "hashType": "sha256"
+}
