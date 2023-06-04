@@ -10,3 +10,39 @@
   label: 'OU',
   timestamp: '2023-06-02T10:14:17.557Z'
 }
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:15.943Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:15.955Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:27.689Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:27.693Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:40.766Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'OU',
+  timestamp: '2023-06-02T10:38:40.771Z'
+}

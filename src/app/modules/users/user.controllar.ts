@@ -1,7 +1,7 @@
-import { Request, Response } from 'express'
+import { NextFunction, Request, Response } from 'express'
 import userService from './user.service'
 
-const creteUser = async (req: Request, res: Response) => {
+const creteUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { user } = req.body
     const result = await userService.createUser(user)
@@ -10,12 +10,8 @@ const creteUser = async (req: Request, res: Response) => {
       massage: 'User created successfully',
       data: result,
     })
-  } catch (error) {
-    res.status(400).json({
-      success: false,
-      massage: 'Failed to create user',
-      error: error,
-    })
+  } catch (err) {
+    next(err)
   }
 }
 

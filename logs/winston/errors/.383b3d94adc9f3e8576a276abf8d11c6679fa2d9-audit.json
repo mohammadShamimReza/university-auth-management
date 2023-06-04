@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/.383b3d94adc9f3e8576a276abf8d11c6679fa2d9-audit.json",
-    "files": [
-        {
-            "date": 1685700122542,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/ou-2023-02-06-16-error.log",
-            "hash": "8ae2acd8e73433042a32d9fce6dbbb0ce7fb9addcbdf2fda983a8853ec0d9694"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/.383b3d94adc9f3e8576a276abf8d11c6679fa2d9-audit.json",
+  "files": [
+    {
+      "date": 1685700122542,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/ou-2023-02-06-16-error.log",
+      "hash": "8ae2acd8e73433042a32d9fce6dbbb0ce7fb9addcbdf2fda983a8853ec0d9694"
+    }
+  ],
+  "hashType": "sha256"
 }
