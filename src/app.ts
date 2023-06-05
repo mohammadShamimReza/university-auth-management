@@ -1,7 +1,7 @@
 import express, { Application } from 'express'
 import cors from 'cors'
-import UserRouter from './app/modules/users/user.router'
 import globlErrorHandler from './app/middlewares/globalErrorHandler'
+import { UserRouter } from './app/modules/user/user.router'
 const app: Application = express()
 
 app.use(cors())
@@ -13,9 +13,8 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use('/api/v1/user/', UserRouter)
 
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   throw new ApiError('Not implemented')
-//   // next('THis is error for next')
+// app.get('/', async (req , res, next) => {
+//   throw new Error('Testing Error Logger')
 // })
 
 // Global error handler

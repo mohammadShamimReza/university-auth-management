@@ -6,29 +6,14 @@
     "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/.d646f3a6a07fc5d42e7c6c173e4db9d344409f88-audit.json",
     "files": [
         {
-            "date": 1685700379964,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-02-06-16-error.log",
-            "hash": "c5c437e556696d1f7688c772f6c48ec598d6e841887e92f48243e927bd581636"
+            "date": 1685942215634,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-05-06-11-error.log",
+            "hash": "86972dd69179913c43a0ddba0190d4c9a18bf2c2ca48302f55bbcd8687d7c154"
         },
         {
-            "date": 1685766715177,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-03-06-10-error.log",
-            "hash": "611498f60ca2caecaf815a187ca37085ff017eee01942604f49511cded0ab946"
-        },
-        {
-            "date": 1685768573083,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-03-06-11-error.log",
-            "hash": "32921b62e84fb14766784d6918f197fa1427bcf877e0ef2f8983db2edab408e1"
-        },
-        {
-            "date": 1685776234168,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-03-06-13-error.log",
-            "hash": "8ff792f1d866f9f7fbd2f4047785378c29cadd89a2d9f9b98b8e951127abd325"
-        },
-        {
-            "date": 1685869479357,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-04-06-15-error.log",
-            "hash": "8f6ba4cb4e5fc2a1fa3e985e63b5bb056fb872fb77f1106e585a11a7bc2c24a2"
+            "date": 1685944889756,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/errors/OU-2023-05-06-12-error.log",
+            "hash": "8303dc8c80a26fc9801165153568a6d0ab680bed5d28496714abf92a3f9d991b"
         }
     ],
     "hashType": "sha256"
