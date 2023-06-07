@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod';
 
 const createdUserZodSchema = z.object({
   body: z.object({
@@ -7,8 +7,8 @@ const createdUserZodSchema = z.object({
     }),
     password: z.string().optional(),
   }),
-})
+});
 
 export const UserValidation = {
   createdUserZodSchema,
-}
+};
