@@ -1,45 +1,45 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/.c02033d8766b89e77f956a514d1dad420fa2dbbc-audit.json",
+  "files": [
+    {
+      "date": 1685943198241,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-11-success.log",
+      "hash": "dc4aea16866858b14ddee03aa4679c7e534c0ed225e67259f76a75b260a50a89"
     },
-    "auditLog": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/.c02033d8766b89e77f956a514d1dad420fa2dbbc-audit.json",
-    "files": [
-        {
-            "date": 1685943198241,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-11-success.log",
-            "hash": "dc4aea16866858b14ddee03aa4679c7e534c0ed225e67259f76a75b260a50a89"
-        },
-        {
-            "date": 1685944818450,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-12-success.log",
-            "hash": "2a05b6d1d0a4059584d48fb1d4201b80af203e4e11fd54be776f8ddec6d37eca"
-        },
-        {
-            "date": 1685982776992,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-22-success.log",
-            "hash": "e41f86ce7c4819b771e3b56a988e049e2f73f17ee9e85de1366a747985f792bb"
-        },
-        {
-            "date": 1685984750132,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-23-success.log",
-            "hash": "f65bfccba293b96f9f6e02403c0df3b7f983d13271fc8cd3a7ac328d75fa29f0"
-        },
-        {
-            "date": 1686194794088,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-09-success.log",
-            "hash": "d5ab1f2f3d147c3d4a324550615a38a4a2888a31629d4f69f493285d99c5a448"
-        },
-        {
-            "date": 1686199594003,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-10-success.log",
-            "hash": "a5c28db52e1e0bb4ac8b2ee90ab26884b878c75f1eac1681a62ff4801767e846"
-        },
-        {
-            "date": 1686200501578,
-            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-11-success.log",
-            "hash": "eb619c73a6ef91e225ec2758bc353eeed851c62ae75e7b3b1124947604bd1c8f"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1685944818450,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-12-success.log",
+      "hash": "2a05b6d1d0a4059584d48fb1d4201b80af203e4e11fd54be776f8ddec6d37eca"
+    },
+    {
+      "date": 1685982776992,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-22-success.log",
+      "hash": "e41f86ce7c4819b771e3b56a988e049e2f73f17ee9e85de1366a747985f792bb"
+    },
+    {
+      "date": 1685984750132,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-05-06-23-success.log",
+      "hash": "f65bfccba293b96f9f6e02403c0df3b7f983d13271fc8cd3a7ac328d75fa29f0"
+    },
+    {
+      "date": 1686194794088,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-09-success.log",
+      "hash": "d5ab1f2f3d147c3d4a324550615a38a4a2888a31629d4f69f493285d99c5a448"
+    },
+    {
+      "date": 1686199594003,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-10-success.log",
+      "hash": "a5c28db52e1e0bb4ac8b2ee90ab26884b878c75f1eac1681a62ff4801767e846"
+    },
+    {
+      "date": 1686200501578,
+      "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/OU-2023-08-06-11-success.log",
+      "hash": "eb619c73a6ef91e225ec2758bc353eeed851c62ae75e7b3b1124947604bd1c8f"
+    }
+  ],
+  "hashType": "sha256"
 }
