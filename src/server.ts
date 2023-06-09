@@ -23,9 +23,6 @@ async function bootstrap() {
     errorlogger.error('failed to connect datase', error);
   }
   process.on('unhandledRejection', error => {
-    console.log(
-      'Unhandled Rejection is detected, we are closing our server ....'
-    );
     if (server) {
       server.close(() => {
         errorlogger.error(error);
@@ -36,6 +33,7 @@ async function bootstrap() {
     }
   });
 }
+bootstrap();
 
 process.on('SIGTERM', () => {
   if (server) {
@@ -47,4 +45,3 @@ process.on('SIGTERM', () => {
     process.exit(1);
   }
 });
-bootstrap();
