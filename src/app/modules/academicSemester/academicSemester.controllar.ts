@@ -23,6 +23,28 @@ const createSemester = catchAsync(
   }
 );
 
+const getAllSemesters = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+    // const paginationOptions = {
+    //   page: Number(req.query.page),
+    //   limit: Number(req.query.limit),
+    //   soryBy: req.query.soryBy,
+    //   sortOrder: req.query.sortOrder,
+    // };
+    // const result = await AcademicSemesterService.getAllSemesters(
+    //   paginationOptions
+    // );
+    // sendResponse<IAcademicSemester>(res, {
+    //   statusCode: httpStatus.OK,
+    //   success: true,
+    //   message: 'Semesters retrieved successfully!',
+    //   data: result,
+    // });
+    next();
+  }
+);
+
 export const AcademicSemesterControllar = {
   createSemester,
+  getAllSemesters,
 };

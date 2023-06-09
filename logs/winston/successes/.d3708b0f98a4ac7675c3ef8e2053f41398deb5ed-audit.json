@@ -24,6 +24,11 @@
             "date": 1686286997137,
             "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/phu-2023-09-06-11-success.log",
             "hash": "427d027749837c983e0fa000897c5ddfb69c209aa2813a061f74e03afa23a371"
+        },
+        {
+            "date": 1686292105113,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/phu-2023-09-06-12-success.log",
+            "hash": "b6cc47ddaa13c8fde6c9cf712222c75c28b7ea4040ccec5e209da5b274c39e8d"
         }
     ],
     "hashType": "sha256"
