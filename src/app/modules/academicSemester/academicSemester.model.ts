@@ -14,7 +14,7 @@ import ApiError from '../../../errors/ApiError';
 const academicSemesterScehma = new Schema<IAcademicSemester>(
   {
     title: { type: String, required: true, enum: acedemicSemesterTitles },
-    year: { type: Number, required: true },
+    year: { type: String, required: true },
     code: { type: String, required: true, enum: acedemicSemesterCodes },
     startMonth: { type: String, required: true, enum: academicSemesterMonths },
     endMonth: { type: String, required: true, enum: academicSemesterMonths },
