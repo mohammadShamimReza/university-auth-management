@@ -6,9 +6,9 @@ import validateRequest from '../../middlewares/validateRequest';
 const router = express.Router();
 
 router.post(
-  '/create-user',
+  '/create-student',
   validateRequest(UserValidation.createdUserZodSchema),
-  UserControllar.createUser
+  UserControllar.createStudent
 );
 
 export const UserRouter = router;
