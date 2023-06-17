@@ -119,6 +119,16 @@
             "date": 1686913272040,
             "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/phu-2023-16-06-17-success.log",
             "hash": "f189e4e7fcf2e3e206ea1e11c7345d0230b08b2bd987443e5e8d88239511fd14"
+        },
+        {
+            "date": 1687004396902,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/phu-2023-17-06-18-success.log",
+            "hash": "adf39c6b5a4991e4385702d5cb411f955b0cbc50d6ae882845792b0e13c6f1e6"
+        },
+        {
+            "date": 1687009970938,
+            "name": "/home/msh/Documents/COURSE/online_university/Auth-services/logs/winston/successes/phu-2023-17-06-19-success.log",
+            "hash": "65b8ff9af304dd1ed4b0bbee4198a871128f14c87d1a2772bacc9cd87b0bc175"
         }
     ],
     "hashType": "sha256"
