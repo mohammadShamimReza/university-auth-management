@@ -1,5 +1,5 @@
 import { SortOrder } from 'mongoose';
-// import { paginationHelper } from '../../../helpers/paginationHelper';
+import { paginationHelper } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicDepartmentSearchableFields } from './academicDepartment.constants';
@@ -8,7 +8,6 @@ import {
   IAcademicDepartmentFilters,
 } from './academicDepartment.interfaces';
 import { AcademicDepartment } from './academicDepartment.model';
-import { paginationHelper } from '../../../helpers/paginationHelper';
 
 const getAllDepartments = async (
   filters: IAcademicDepartmentFilters,

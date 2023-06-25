@@ -1,44 +1,41 @@
-import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import globlErrorHandler from './app/middlewares/globalErrorHandler';
-
-import routes from './app/routes';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
-// import { generateFacultyId } from './app/modules/user/user.utils';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import routes from './app/routes';
 const app: Application = express();
 
 app.use(cors());
 
+//parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1/', routes);
+// app.use('/api/v1/users/', UserRoutes);
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+app.use('/api/v1', routes);
 
-app.use(globlErrorHandler);
+//Testing
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error logger')
+// })
 
-// handle not found routes
+//global error handler
+app.use(globalErrorHandler);
+
+//handle not found
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,
-    message: 'Not found',
-    errorMessage: {
-      path: req.path,
-      message: 'API NOT FOUND',
-    },
+    message: 'Not Found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'API Not Found',
+      },
+    ],
   });
   next();
 });
-
-// const academinSemester = {
-//   year: '2017',
-//   code: '01',
-// };
-
-// const testId = async () => {
-//   const Id = await generateFacultyId();
-
-//   console.log(Id);
-// };
-// testId();
 
 export default app;
