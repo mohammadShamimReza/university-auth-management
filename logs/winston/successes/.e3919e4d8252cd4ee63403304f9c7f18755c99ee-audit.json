@@ -9,6 +9,16 @@
             "date": 1687603060944,
             "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/successes/phu-2023-24-06-16-success.log",
             "hash": "7bcd74d67929e7ecfaa66e5c32937454e4c0ad5a0be330fa6cc8db3e660158fb"
+        },
+        {
+            "date": 1687754234446,
+            "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/successes/phu-2023-26-06-10-success.log",
+            "hash": "03acae14fe6865910c2dc1b599bcacfe9392096078057f522b24a113889cb8ed"
+        },
+        {
+            "date": 1687755838013,
+            "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/successes/phu-2023-26-06-11-success.log",
+            "hash": "f726a0e832c04b24d724151e2137c9ab166e1148e3cd6c4e15ba7c887b31d9dd"
         }
     ],
     "hashType": "sha256"
