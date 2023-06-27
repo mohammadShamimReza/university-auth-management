@@ -17,10 +17,10 @@ router.post(
 router.get(
   '/:id',
   auth(
-    ENUM_USER_ROLE.SUPER_ADMIN,
     ENUM_USER_ROLE.ADMIN,
     ENUM_USER_ROLE.FACULTY,
-    ENUM_USER_ROLE.STUDENT
+    ENUM_USER_ROLE.STUDENT,
+    ENUM_USER_ROLE.SUPER_ADMIN
   ),
   AcademicFacultyController.getSingleFaculty
 );
