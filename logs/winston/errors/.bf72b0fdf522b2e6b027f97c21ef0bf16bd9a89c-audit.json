@@ -1,20 +1,25 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/.bf72b0fdf522b2e6b027f97c21ef0bf16bd9a89c-audit.json",
-  "files": [
-    {
-      "date": 1687603060946,
-      "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/phu-2023-24-06-16-error.log",
-      "hash": "d397c4ec5300c0bce8a13d48474ef4c4076d375c7b393c228caef460ee667ed0"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1687754234449,
-      "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/phu-2023-26-06-10-error.log",
-      "hash": "307ccb8e2a2e0f1118696953e12d9924057586f315e059edf8e621f9f0727ae8"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/.bf72b0fdf522b2e6b027f97c21ef0bf16bd9a89c-audit.json",
+    "files": [
+        {
+            "date": 1687603060946,
+            "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/phu-2023-24-06-16-error.log",
+            "hash": "d397c4ec5300c0bce8a13d48474ef4c4076d375c7b393c228caef460ee667ed0"
+        },
+        {
+            "date": 1687754234449,
+            "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/phu-2023-26-06-10-error.log",
+            "hash": "307ccb8e2a2e0f1118696953e12d9924057586f315e059edf8e621f9f0727ae8"
+        },
+        {
+            "date": 1688435159200,
+            "name": "/home/msh/Documents/COURSE/backend/Auth-services/logs/winston/errors/phu-2023-04-07-07-error.log",
+            "hash": "4c7b70052ee83b72e5660ed4f6c10a30541b208fec4c41ca359955bf7ef8bcc1"
+        }
+    ],
+    "hashType": "sha256"
 }

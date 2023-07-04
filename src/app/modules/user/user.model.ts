@@ -20,6 +20,9 @@ const UserSchema = new Schema<IUser, UserModel>(
       required: true,
       select: 0,
     },
+    passwordChangeAt: {
+      type: Date,
+    },
     needsPasswordChange: {
       type: Boolean,
       default: true,
@@ -71,6 +74,10 @@ UserSchema.pre('save', async function (next) {
     user.password,
     Number(config.bycrypt_salt_rounds)
   );
+  if (!user.needsPasswordChange) {
+    user.passwordChangeAt = new Date();
+  }
+
   next();
 });
 
