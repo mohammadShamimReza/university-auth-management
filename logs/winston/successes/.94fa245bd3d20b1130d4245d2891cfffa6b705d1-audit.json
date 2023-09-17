@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/.94fa245bd3d20b1130d4245d2891cfffa6b705d1-audit.json",
+    "files": [
+        {
+            "date": 1694659421838,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-14-09-08-success.log",
+            "hash": "68d633e7a840cb1f995387390130fcaa5a78710c527dc8b515a0d513efdc54bd"
+        },
+        {
+            "date": 1694660429959,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-14-09-09-success.log",
+            "hash": "eee4d58715151178d2604a801e1b4c5768875c78c85b69e2a431db32b107beea"
+        },
+        {
+            "date": 1694826143991,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-16-09-07-success.log",
+            "hash": "b744aa70ece7b440f79f1d1c8a675d06dfaaa33b3bd1fe218fa55434102f080e"
+        },
+        {
+            "date": 1694839560584,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-16-09-10-success.log",
+            "hash": "f5fa101280f1072cf48bb0f395c3df18f8bfdcfadf0bc58176b8d12214aeac05"
+        },
+        {
+            "date": 1694854085171,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-16-09-14-success.log",
+            "hash": "fe1c5bdceaf1a18f62f3b4cc01e0ac908562fdf7b96cfe267e1b7aa661550771"
+        },
+        {
+            "date": 1694907764769,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-17-09-05-success.log",
+            "hash": "665d2b6c85b33f9b0522a6c04e98fadbcbb18bd639e6c0440dd139a0fabc1e06"
+        },
+        {
+            "date": 1694909912940,
+            "name": "/home/msh/Documents/level2/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-17-09-06-success.log",
+            "hash": "e4a531855272587a4c419d5973f7894507d777ed1c0aff8cbbac02aa01c4a432"
+        }
+    ],
+    "hashType": "sha256"
+}
