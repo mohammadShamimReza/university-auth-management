@@ -8,6 +8,7 @@ const initAcademicDepartmentEvents = () => {
     EVENT_ACADEMIC_DEPARTMENT_CREATED,
     async (e: string) => {
       const data: AcademicDepartmentCreatedEvent = JSON.parse(e);
+
       await AcademicDepartmentService.insertIntoDBFromEvent(data);
     }
   );

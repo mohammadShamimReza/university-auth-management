@@ -1,0 +1,4 @@
+Wed Sep 20 2023 0:30:23 } [PH] error: AcademicDepartment validation failed: academicFaculty: Path `academicFaculty` is required.
+Wed Sep 20 2023 0:35:14 } [PH] error: AcademicDepartment validation failed: academicFaculty: Path `academicFaculty` is required.
+Wed Sep 20 2023 0:39:43 } [PH] error: E11000 duplicate key error collection: university-management.academicfaculties index: title_1 dup key: { title: "Faculty of Arts and Social Science" }
+Wed Sep 20 2023 0:48:2 } [PH] error: E11000 duplicate key error collection: university-management.academicfaculties index: title_1 dup key: { title: "Faculty of mechanical" }

@@ -79,6 +79,8 @@ const getAllDepartments = async (
     .skip(skip)
     .limit(limit);
 
+  console.log(result, 'this si from result');
+
   const total = await AcademicDepartment.countDocuments(whereConditions);
 
   return {
@@ -119,12 +121,17 @@ const insertIntoDBFromEvent = async (
   const academicFaculty = await AcademicFaculty.findOne({
     syncId: e.academicFacultyId,
   });
+
   const payload = {
     title: e.title,
     academicFaculty: academicFaculty?.id,
     syncId: e.id,
   };
-  await AcademicDepartment.create(payload);
+
+  console.log(payload);
+
+  const data = await AcademicDepartment.create(payload);
+  console.log(data);
 };
 
 export const AcademicDepartmentService = {
