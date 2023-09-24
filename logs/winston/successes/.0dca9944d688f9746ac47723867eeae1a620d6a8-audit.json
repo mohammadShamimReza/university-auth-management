@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/msh/Documents/WEB/developement/learn/backend/um-auth-service/logs/winston/successes/.0dca9944d688f9746ac47723867eeae1a620d6a8-audit.json",
+    "files": [
+        {
+            "date": 1695547880753,
+            "name": "/home/msh/Documents/WEB/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-24-09-15-success.log",
+            "hash": "f1c3de5ec6de9945c624ad8bb1d6947842ef1f6b688b7517f224fd7ca771b77f"
+        },
+        {
+            "date": 1695550317251,
+            "name": "/home/msh/Documents/WEB/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-24-09-16-success.log",
+            "hash": "bf8aca972069a2f67ef7698bc9be59224c8e6daf35426cd781949312a4dda7d6"
+        },
+        {
+            "date": 1695555810834,
+            "name": "/home/msh/Documents/WEB/developement/learn/backend/um-auth-service/logs/winston/successes/phu-2023-24-09-17-success.log",
+            "hash": "16a13cd5cbf021911e9b0ed987ab5870dad9081ec346cd37a1d5b10c415d1f44"
+        }
+    ],
+    "hashType": "sha256"
+}
